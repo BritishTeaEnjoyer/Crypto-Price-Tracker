@@ -39,8 +39,8 @@ def price_tracking():
 		asyncio.run(send_telegram_message(message_body))
 
 async def send_telegram_message(message):
-	bot_token = 'TOKEN'
-	chatID = 'CHATID'
+	bot_token = TOKEN
+	chatID = CHATID
 
 	bot = Bot(token = bot_token)
 	await bot.send_message(chat_id = chatID, text = message)
