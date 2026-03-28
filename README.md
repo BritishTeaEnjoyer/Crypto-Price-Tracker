@@ -24,4 +24,9 @@ Thank you to NextGen Vision for creating the main code (some has been altered by
 
 ## Finding your chat ID
 
-The website will say something look something like this:
+After starting the bot, the website will say something look something like this:
+
+{"ok":true,"result":[{"update_id":#######,
+"message":{"message_id":1,"from":{"id":##########,"is_bot":false,"first_name":"###","last_name":"###","language_code":"en"},"chat":{"id":**This is the part you need**,"first_name":"###","last_name":"###","type":"private"},"date":###########,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}
+
+(All of the hashtags are information I have redacted for my privacy)
