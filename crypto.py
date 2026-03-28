@@ -12,7 +12,7 @@ def price_tracking():
 	cg = CoinGeckoAPI()
 
 	targets = {
-		'bitcoin' : 60000,
+		'bitcoin' : 50000,
 	}
 
 	met_targets = {}
