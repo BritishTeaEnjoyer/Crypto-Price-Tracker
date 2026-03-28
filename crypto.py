@@ -5,6 +5,7 @@ import time
 import os
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHATID = os.getenv("CHAT_ID")
 
 # Retrive the price of a specific crypto (bitcoin)
 
